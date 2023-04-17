@@ -13,7 +13,7 @@ public class ThirdPersonCamera : MonoBehaviour
     public Transform cameraTransform;
     public Camera myCamera;
     public Transform player;
-    public Vector3 camPosOffset = new Vector3(0.4f,0.5f,-3.0f); // 충돌 처리용으로 사용.
+    public Vector3 camPosOffset = new Vector3(0.4f,0.5f,-2.0f); // 충돌 처리용으로 사용.
     public Vector3 camPivotOffset = new Vector3(0.0f,1.0f,0.0f); // 시선 이동에 사용.
     
     // 에임 관련
